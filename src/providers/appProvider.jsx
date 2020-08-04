@@ -25,7 +25,7 @@ const AppProvider = ({ children }) => {
   return (
     <AppContext.Provider value={{ state, dispatch }}>
       {state.pageNum > 1 && <button name='previous' onClick={handleClick}>Previous</button>}
-      {state.pageNum < state.totalPages && <button name='next' onClick={handleClick}>Next</button>}
+      {state.pageNum * 20 < state.totalCount && <button name='next' onClick={handleClick}>Next</button>}
       {children}
     </AppContext.Provider>
   );

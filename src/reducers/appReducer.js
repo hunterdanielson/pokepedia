@@ -1,6 +1,6 @@
 export const initialState = {
   pageNum: 1,
-  totalPages: 21,
+  totalCount: 964,
   list: [],
   theme: 'light'
 };
