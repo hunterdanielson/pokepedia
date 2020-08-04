@@ -1,0 +1,11 @@
+@import '../../styles/variables.css';
+
+.List-light {
+  background-color: var(--light-bg-color);
+  color: var(--light-fg-color);
+}
+
+.List-dark {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-fg-color);
+}
